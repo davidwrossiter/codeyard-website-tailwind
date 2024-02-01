@@ -1,0 +1,20 @@
+{
+  "name": "codeyard-website-tailwind",
+  "version": "1.0.0",
+  "description": "This is CodeYard's first project using Tailwind.",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/styles.css -o build/styles.css"
+
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.1",
+    "watch": "^1.0.2"
+  }
+}
